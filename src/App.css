@@ -1,0 +1,78 @@
+:root {
+  --header-background-color: #060047;
+  --prime-font-color: #fff;
+}
+
+body {
+  background-color: #0a2647 !important;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(46, 11, 50, 0.9724264705882353) 36%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #f0f1fb !important;
+  height: 100vh !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+  /* background-color: var(--header-background-color); */
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  color: var(--prime-font-color);
+  padding: 2rem;
+  /* -webkit-box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.form-check-input:checked {
+  background-color: #0a2647 !important;
+  border-color: #ffffff;
+}
+
+.form-switch .form-check-input {
+  width: 4rem !important;
+}
+.form-check-input {
+  height: 1.7rem !important;
+}
+
+.buttn {
+  /* background-color: #060047;
+  color: #fff; */
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  margin: 0.4rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttn:hover {
+  background-color: #0b082ad1;
+  color: #f0f1fb;
+  transition: all 0.3s ease-in-out;
+}
+/* .darkmode{
+  color: var(--prime-font-color) !important;
+  background-color: #0a2647 !important;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(46, 11, 50, 0.9724264705882353) 36%,
+    rgba(0, 212, 255, 1) 100%
+  );
+} */
+.lightmode{
+  background: #c3c3c3ba !important;
+  color: #0b082ad1 !important;
+}
